@@ -126,3 +126,9 @@ else if (flip === 5)
 else 
     counter[6]++;
 console.table(counter);
+
+counter[1, 1, 1, 1, 1, 1]
+const myFunc = function(item) {
+	return item === counter[0]
+}
+counter.every(myFunc);
