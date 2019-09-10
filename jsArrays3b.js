@@ -1,5 +1,6 @@
-var counter = [0,0,0,0,0,2]
+var counter = [0,0,0,0,0,0]
 var test = function(element) {
-	return element > 1;
+	return element === counter[0,1,2,3,4,5];
 };
-console.log(array.some(test));
+let element = prompt('skriv et tal her');
+console.log(counter.some(test));
